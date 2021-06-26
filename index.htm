@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Greenland’s Tracy and Heilprin Glaciers Melt | World101</title>
+<link rel="stylesheet" href="/themes/custom/world101_theme/dist/css/main.css" />
+<link rel="stylesheet" href="css/juxtapose.css">
+<style>
+div.jx-image div.jx-label {
+    font-family: "Larsseit", Arial, sans-serif;
+}
+a.jx-knightlab {
+    display: none;
+}
+a.jx-knightlab div.knightlab-logo {
+    display: none;
+}
+a.jx-knightlab:hover {
+    display: none;
+}
+a.jx-knightlab:hover div.knightlab-logo {
+    display: none;
+}
+a.jx-knightlab span.juxtapose-name {
+    display: none;
+}
+</style>
+<script src="js/juxtapose.min.js"></script>
+</head>
+
+<body>
+<div id="greenland"></div>
+<script>
+slider = new juxtapose.JXSlider('#greenland',
+  [{
+      src: 'images/before.jpg',
+      label: 'September 28, 1987',
+      credit: ''
+    },
+    {
+      src: 'images/after.jpg',
+      label: 'September 30, 2017',
+      credit: ''
+    }
+  ], {
+    animate: true,
+    showLabels: true,
+    showCredits: false,
+    startingPosition: "50%",
+    makeResponsive: true
+  });
+</script>
+</body>
+</html>
